@@ -1,3 +1,5 @@
+// Mongoo DB User Schema Schematic And Their Code
+
 const mongoose = require('mongoose')
 
 const userSchema = new mongoose.Schema({

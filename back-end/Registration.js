@@ -1,3 +1,5 @@
+// Registration Schematics and Their Codes
+
 const mongoose = require ('mongoose')
 
 const regSchema = new mongoose.Schema({

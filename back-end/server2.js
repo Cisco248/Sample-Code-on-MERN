@@ -1,3 +1,5 @@
+// Simple Server File with Libraries
+
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
