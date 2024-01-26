@@ -1,9 +1,7 @@
-// Registration Schematics and Their Codes
+const mongoose = require('mongoose')
 
-const mongoose = require ('mongoose')
-
-const regSchema = new mongoose.Schema({
-    name: {
+const userSchema = new mongoose.Schema({
+    username: {
         type: String,
         required: true
     },
@@ -24,4 +22,4 @@ const regSchema = new mongoose.Schema({
     }
 })
 
-module.exports = mongoose.model('Registration', regSchema)
+module.exports = mongoose.model('User', userSchema)
